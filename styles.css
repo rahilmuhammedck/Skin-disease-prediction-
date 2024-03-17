@@ -1,0 +1,41 @@
+body {
+        background-image: url('background.jpg');
+            background-size: cover;
+                background-repeat: no-repeat;
+                    font-family: Arial, sans-serif;
+                        color: #fff;
+                        }
+
+                        .container {
+                            max-width: 600px;
+                                margin: 0 auto;
+                                    text-align: center;
+                                    }
+
+                                    h1 {
+                                        color: #fff;
+                                        }
+
+                                        textarea, input[type="file"], button {
+                                            margin: 10px 0;
+                                            }
+
+                                            button {
+                                                padding: 10px 20px;
+                                                    background-color: #007bff;
+                                                        color: #fff;
+                                                            border: none;
+                                                                cursor: pointer;
+                                                                }
+
+                                                                button:hover {
+                                                                    background-color: #0056b3;
+                                                                    }
+
+                                                                    #predictionResult {
+                                                                        margin-top: 20px;
+                                                                            padding: 10px;
+                                                                                border-radius: 5px;
+                                                                                    background-color: rgba(0, 0, 0, 0.7);
+                                                                                    }
+}
