@@ -11,4 +11,3 @@ document.getElementById("predictionForm").addEventListener("submit", function(ev
                                             // Display the prediction result
                                                 document.getElementById("predictionResult").innerText = predictionResult;
                                                 });
-})
