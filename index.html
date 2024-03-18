@@ -10,14 +10,31 @@
     <div class="container">
         <h1>Skin Disease Predictor</h1>
         <form id="predictionForm">
-            <label for="q1">Question 1:</label>
-            <input type="text" id="q1" name="q1" required><br>
-            <label for="q2">Question 2:</label>
-            <input type="text" id="q2" name="q2" required><br>
-            <label for="q3">Question 3:</label>
-            <input type="text" id="q3" name="q3" required><br>
-            <label for="q4">Question 4:</label>
-            <input type="text" id="q4" name="q4" required><br>
+            <label for="q1">Do you experience itching or redness on your skin?</label>
+            <select id="q1" name="q1" required>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select><br>
+            <label for="q2">Do you notice silvery scales on red, thickened patches of skin?</label>
+            <select id="q2" name="q2" required>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select><br>
+            <label for="q3">Do you have pimples, blackheads, or whiteheads on your skin?</label>
+            <select id="q3" name="q3" required>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select><br>
+            <label for="q4">Do you experience dry, scaly patches on your skin?</label>
+            <select id="q4" name="q4" required>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select><br>
+            <label for="q5">Do you have a history of skin conditions in your family?</label>
+            <select id="q5" name="q5" required>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select><br>
             <input type="file" id="imageUpload" accept="image/*" required><br>
             <button type="submit">Predict</button>
         </form>
