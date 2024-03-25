@@ -16,7 +16,7 @@ document.getElementById("predictionForm").addEventListener("submit", function(ev
         predictedDisease = "Psoriasis";
     } else if (q3 === "yes") {
         predictedDisease = "Acne";
-    } else if (q1 === "yes" && q4 === "yes") {
+    } else if (q1 === "yes") {
         predictedDisease = "Eczema";
     }
     
